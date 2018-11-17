@@ -1,7 +1,9 @@
 ---
 name: install_broker_api
 
-templates: {}
+templates: {
+    ctl.erb: bin/ctl
+}
 
 packages: []
 
