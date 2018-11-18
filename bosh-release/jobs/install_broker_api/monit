@@ -1,5 +1,0 @@
-check process web_api
-    with pidfile /var/vcap/sys/run/web_api/pid
-    start program "/var/vcap/jobs/web_api/bin/ctl start"
-    stop program "/var/vcap/jobs/web_api/bin/ctl stop"
-    group vcap
